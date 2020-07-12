@@ -1,0 +1,129 @@
+
+/* Stupid HTML borders */
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* START NAVIGATION CSS */
+.header {
+    height: 120px;
+    background-color: #0C1829;
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* Sticky */
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4; */
+}
+
+.nav {
+    color: white;
+
+    /* Flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Styling */
+    list-style: none;
+    
+    /* Pos */
+    width: 560px;
+
+    /* height: 100%; */
+    margin-left: auto;
+    margin-right: 50px;
+    font-family: "Malayalam Sangam MN";
+    font-size: 20px;
+
+}
+
+.nav-link.active {
+    text-decoration: underline;
+}
+
+.logo {
+    font-family: "Arial Black";
+    font-size: 26px;
+    color: white;
+
+    margin-left: 50px;
+}
+
+.nav-social-icons {
+    
+}
+/* END NAVIGATION CSS */
+
+
+/* START TYPOGRAPHY CSS */
+
+.hero-title {
+    font-family: "Bodoni 72 Oldstyle";
+}
+
+.hero-subtitle {
+    font-family: "Copperplate";
+    font-size: 19px;
+}
+
+/* END TYPOGRAPHY CSS */
+
+
+
+/* START HOMEPAGE CSS */
+
+.homepage-hero {
+    background-image: url("../images/Sparkmanfirebill.jpg");
+    /* width: 1920px; */
+    height: 600px;
+    position: absolute;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+
+    top: 120px;
+    right: 0;
+    /* bottom: 0; */
+    left: 0;
+
+    overflow: hidden;
+}
+
+.homepage-hero-title {
+
+    /* Styling */
+    line-height: 95px;
+    font-size: 80px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    
+    /* Position */
+    position: absolute;
+    left: 220px;
+
+}
+
+.homepage-hero-subtitle {
+
+    /* Styling */
+    color: white;
+    width: 430px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .55px;
+
+    /* Position */
+    position: absolute;
+    left: 200px;
+    top: 370px;
+}
