@@ -1,0 +1,38 @@
+@import "globals.css";
+
+
+#comedy-magic-hero-section {
+    background-color: #1d1d1ddc;
+}
+
+.comedy-magic-hero {
+    margin-top: 120px;
+    background-image: url("../images/comedy-magic-hero-image.png");
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    top: 120px; /* header height */
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: .2;
+}
+
+.comedy-magic-video-card {
+    height: 500px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+#comedy-magic-testimonials-section {
+    background-color: #0d1929b4;
+}
+
+.testimonials-wrapper {
+    background-image: url("../images/comedy-magic-testimonials-image.png");
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    opacity: .2;
+}
