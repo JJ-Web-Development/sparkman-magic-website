@@ -1,0 +1,51 @@
+@import "globals.css";
+
+
+.speaking-hero {
+    height: 600px;
+}
+
+.speaking-hr {
+    width: 1000px;
+    border: 1px solid #0C1829;
+}
+
+#speaking-ideas-section {
+    height: 800px;
+}
+
+.speaking-ideas-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 1000px;
+}
+
+.speaking-ideas-card {
+    width: 300px;
+    height: 400px;
+    background: #1A3152; 
+}
+
+#speaking-out-of-box-section {
+    height: 1000px;
+}
+
+.speaking-outofbox-cards-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    width: 800px;
+    margin: 50px auto;
+}
+
+.speaking-outofbox-card {
+    width: 200px;
+    height: 200px;
+    background-color: #1A3152;
+}
+
+#speaking-photos-section {
+    height: 1000px;
+}

@@ -1,0 +1,33 @@
+@import "globals.css";
+
+#golf-magic-hero-section {
+    background-color: #1d1d1ddc;
+}
+
+.golf-magic-hero {
+    margin-top: 120px;
+    background-image: url("../images/golf-magic-hero-image.png");
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    top: 120px; /* header height */
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: .2;
+}
+
+#golf-magic-work-info-section {
+    height: 1000px;
+}
+
+.work-info-card {
+    width: 700px;
+    height: 400px;
+    background-color: #1A3152;
+    margin: 50px auto;
+}
+
+#golf-magic-spice-up-section {
+    height: 1000px;
+}

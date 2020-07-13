@@ -36,3 +36,27 @@
     overflow: hidden;
     opacity: .2;
 }
+
+#comedy-magic-stage-show-section {
+    height: 1000px;
+}
+
+#comedy-magic-close-up-section {
+    height: 1000px;
+    background-color: #213351;
+    overflow: hidden;
+}
+
+.close-up-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    margin: 50px auto;
+}
+
+.close-up-card {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+}
