@@ -153,3 +153,27 @@ scrollbar-width: none;  /* Firefox */
 
 
 /* END FOOTER CSS */
+
+/* START MISC CSS */
+.drop-shadow {
+    box-shadow: 0px 11px 24px #00000072;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.open-quote, .close-quote {
+    position: absolute;
+}
+
+.open-quote {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.close-quote {
+    margin-left: calc(100% - 300px);
+    margin-top: -120px;
+}
+/* END MISC CSS */

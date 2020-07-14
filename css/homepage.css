@@ -81,18 +81,6 @@
     line-height: 28px;
 }
 
-.homepage-quotation-mark.open-quote {
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 150px;
-}
-
-.homepage-quotation-mark.close-quote {
-    position: absolute;
-    margin-left: calc(100% - 300px);
-    margin-top: -120px;
-}
-
 .homepage-quotation-body {
     color: #ffffff;
     text-align: center;
