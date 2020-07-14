@@ -1,8 +1,5 @@
 @import "globals.css";
 
-#golf-magic-hero-section {
-    background-color: #1d1d1ddc;
-}
 
 .golf-magic-hero {
     margin-top: 120px;
@@ -14,7 +11,6 @@
     right: 0;
     left: 0;
     overflow: hidden;
-    opacity: .2;
 }
 
 #golf-magic-work-info-section {
@@ -22,12 +18,102 @@
 }
 
 .work-info-card {
-    width: 700px;
-    height: 400px;
+    width: 1200px;
+    /* height: 600px; */
     background-color: #1A3152;
     margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    text-align: center;
+    padding: 50px 0px;
 }
 
 #golf-magic-spice-up-section {
-    height: 1000px;
+    height: 800px;
+}
+
+.golf-magic-hero-title {
+    font-size: 69px;
+    margin-top: 50px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.golf-magic-hero-subtitle {
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.work-info-intro {
+    font-size: 30px;
+    font-family: "Bodoni 72 Oldstyle";
+    text-align: center;
+    width: 1000px;
+    font-weight: lighter;
+    margin: 80px auto 30px auto;
+}
+
+.work-intro-list {
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.work-info-card-section {
+    color: #ffffff;
+    width: 500px;
+    /* height: 300px; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.work-info-card-title {
+    font-family: "Cochin";
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.work-info-card-text {
+    font-family: "Cochin";
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.golf-magic-quotation-body {
+    color: #ffffff;
+    text-align: center;
+    width: calc(100% - 400px);
+    margin: 130px auto 0px auto;
+}
+
+#golf-magic-quote-banner > div {
+    height: 450px;
+}
+
+.spice-up-body-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.spice-up-body-text {
+    text-align: center;
+    margin-right: 50px;
+    width: 500px;
+    font-family: "Cochin";
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.spice-up-title {
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 65px; 
+    font-weight: lighter;
+    text-align: center;
 }
