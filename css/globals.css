@@ -76,6 +76,7 @@ scrollbar-width: none;  /* Firefox */
     text-decoration: none;
     color: hsl(218, 42%, 82%);
     letter-spacing: 1px;
+    padding: 8px;
 }
 
 .nav-link.active a {
