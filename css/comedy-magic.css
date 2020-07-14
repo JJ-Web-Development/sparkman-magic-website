@@ -75,11 +75,15 @@
 
 .video-card-text {
     width: 400px;
-    text-align: center;
+    /*text-align: center;*/
     font-family: "Cochin";
-    letter-spacing: 0.38px;
+    letter-spacing: 0.6px;
     font-size: 15px;
     line-height: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid hsl(218, 42%, 42%);
 }
 
 .video-card-body {
@@ -129,7 +133,7 @@
 
 .testimonial-card-body {
     padding: 20px 40px 40px 40px;
-    text-align: center;
+    /*text-align: center;*/
     font-family: "Cochin";
     letter-spacing: 0.43px;
 }
@@ -168,7 +172,7 @@
 }
 
 .stage-show-body-text {
-    text-align: center;
+    /*text-align: center;*/
     margin-left: 50px;
     font-family: "Cochin";
     font-size: 20px;
@@ -183,12 +187,17 @@
     font-size: 40px;
     font-family: "Bodoni 72 Oldstyle";
     font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .wakeitup-text {
     font-family: "Cochin";
     font-size: 20px;
     font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 .wakeitup-bold {
@@ -202,7 +211,7 @@
     font-weight: lighter;
     letter-spacing: .68px;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-top: 50px;
 }
 
@@ -229,6 +238,12 @@
     font-size: 20px;
     font-weight: lighter;
     margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.close-up-body-image {
+    margin-right: 20px;
 }
 
 .close-up-ideas-title {
