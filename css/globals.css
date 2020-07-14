@@ -91,11 +91,16 @@ scrollbar-width: none;  /* Firefox */
 
 .hero-title {
     font-family: "Bodoni 72 Oldstyle";
+    letter-spacing: 5px;
+    font-weight: lighter;
 }
 
 .hero-subtitle {
     font-family: "Copperplate";
     font-size: 19px;
+    font-weight: 500;
+    letter-spacing: .55px;
+    line-height: 30px;
 }
 
 /* END TYPOGRAPHY CSS */
