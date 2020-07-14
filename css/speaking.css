@@ -1,17 +1,12 @@
 @import "globals.css";
 
-
-.speaking-hero {
-    height: 600px;
-}
-
 .speaking-hr {
     width: 1000px;
     border: 1px solid #0C1829;
 }
 
 #speaking-ideas-section {
-    height: 800px;
+    height: 1000px;
 }
 
 .speaking-ideas-cards-wrapper {
@@ -22,30 +17,201 @@
     width: 1000px;
 }
 
+#speaking-out-of-box-section {
+    height: 2650px;
+    overflow: hidden;
+}
+
+
+#speaking-photos-section {
+    height: 1400px;
+}
+
+.speaking-hero {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 130px auto 50px auto;
+}
+
+.speaking-hero-image {
+    height: 400px;
+    margin-right: 200px;
+}
+
+.speaking-hero-title {
+    font-size: 50px;
+    width: 700px;
+    /* margin-top: -100px; */
+    text-align: center;
+    margin-right: 40px;
+}
+
+.speaking-hero-subtitle {
+    text-align: center;
+}
+
+.speaking-ideas-title {
+    font-family: "Bodoni 72 Oldstyle;";
+    font-size: 38px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.speaking-ideas-text {
+    text-align: center;
+    font-family: "Cochin";
+    font-size: 22px;
+    font-weight: lighter;
+    width: 900px;
+    margin: 50px auto;
+}
+
+.speaking-ideas-subtitle {
+    text-align: center;
+    font-family: "Bodoni 72 Oldstyle;";
+    font-size: 32px;
+    font-weight: lighter;
+    margin-top: 100px;
+}
+
 .speaking-ideas-card {
     width: 300px;
     height: 400px;
     background: #1A3152; 
 }
 
-#speaking-out-of-box-section {
-    height: 1000px;
+
+.speaking-ideas-card-icon-wrapper {
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+
+.speaking-ideas-card-icon {
+    margin: 0 auto;
+}
+
+.speaking-ideas-card-text {
+    color: #ffffff;
+    padding: 30px;
+    font-family: "Cochin";
+    font-size: 18px;
+    text-align: center;
+}
+
+.speaking-quotation-body {
+    color: #ffffff;
+    text-align: center;
+    width: calc(100% - 400px);
+    margin: 130px auto 0px auto;
+}
+
+#speaking-quote-banner > div {
+    height: 450px;
+}
+
+.speaking-out-of-box-title {
+    text-align: center;
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.speaking-out-of-box-subtitle {
+    text-align: center;
+    font-family: "Copperplate";
+    font-size: 27px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.speaking-out-of-box-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: 80px auto;
+}
+
+.speaking-out-of-box-text {
+    font-family: "Cochin";
+    font-size: 22px;
+    margin-right: 70px;
+}
+
+.speaking-out-of-box-title-2 {
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 33px;
+    text-align: center;
+    font-weight: lighter;
+    width: 1000px;
+    margin: 0 auto 50px auto;
+}
+
+.speaking-out-of-box-youtube-video {
+    width: 1000px;
+    height: 562.5px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 11px 24px #00000072;
 }
 
 .speaking-outofbox-cards-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 50px;
-    width: 800px;
-    margin: 50px auto;
+    width: 1100px;
+    margin: 50px auto 0px auto;
 }
 
 .speaking-outofbox-card {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 300px;
     background-color: #1A3152;
 }
 
-#speaking-photos-section {
-    height: 1000px;
+.speaking-outofbox-card-title {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.speaking-outofbox-card-text {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px 0px 20px;
+    font-family: "Cochin";
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.speaking-photos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 100px;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.speaking-photos-photo-wrapper {
+    text-align: center;
+}
+
+.speaking-photos-caption {
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+.speaking-photos-title {
+    text-align: center;
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 60px;
+    font-weight: lighter;
 }
