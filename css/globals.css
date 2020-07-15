@@ -25,7 +25,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 
-/* START NAVIGATION CSS */
+/* START NAVIGATION  */
 .header {
 
     /* Styling */
@@ -99,10 +99,10 @@ scrollbar-width: none;  /* Firefox */
 .nav-social-icons {
     
 }
-/* END NAVIGATION CSS */
+/* END NAVIGATION  */
 
 
-/* START TYPOGRAPHY CSS */
+/* START TYPOGRAPHY  */
 
 .hero-title {
     font-family: "Bodoni 72 Oldstyle";
@@ -118,27 +118,26 @@ scrollbar-width: none;  /* Firefox */
     line-height: 30px;
 }
 
-/* END TYPOGRAPHY CSS */
+/* END TYPOGRAPHY  */
 
-/* START CARD CSS */
+/* START CARD  */
 
 .card {
     box-shadow: 0px 3px 6px #00000067;
 }
 
-/* END CARD CSS */
+/* END CARD  */
 
-/* START QUOTE BANNER CSS */
+/* START QUOTE BANNER  */
 
 .quote-banner {
-    width: 100%;
-    height: 400px;
     background-color: #213351;
     overflow: hidden;
     font-family: "Cochin";
     font-size: 24px;
     font-weight: 100;
     letter-spacing: 1px;
+    padding: 50px 100px 50px 100px;
 }
 
 .quote-author {
@@ -150,9 +149,28 @@ scrollbar-width: none;  /* Firefox */
     margin-top: 70px;
 }
 
-/* END QUOTE BANNER CSS */
+.quote-body {
+    color: #ffffff;
+    text-align: center;
+    /* width: calc(100% - 400px); */
+}
 
-/* START FOOTER CSS */
+.open-quote, .close-quote {
+    position: absolute;
+}
+
+.open-quote {
+    margin-top: -10px;
+}
+
+.close-quote {
+    margin-left: calc(100% - 300px);
+    margin-top: -180px;
+}
+
+/* END QUOTE BANNER  */
+
+/* START FOOTER  */
 
 .footer {
     height: 102px;
@@ -167,9 +185,9 @@ scrollbar-width: none;  /* Firefox */
 }
 
 
-/* END FOOTER CSS */
+/* END FOOTER  */
 
-/* START MISC CSS */
+/* START MISC  */
 .drop-shadow {
     box-shadow: 0px 11px 24px #00000072;
 }
@@ -178,17 +196,4 @@ scrollbar-width: none;  /* Firefox */
     font-weight: bold;
 }
 
-.open-quote, .close-quote {
-    position: absolute;
-}
-
-.open-quote {
-    margin-top: 50px;
-    margin-left: 150px;
-}
-
-.close-quote {
-    margin-left: calc(100% - 300px);
-    margin-top: -120px;
-}
-/* END MISC CSS */
+/* END MISC  */

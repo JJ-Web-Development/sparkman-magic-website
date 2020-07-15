@@ -1,5 +1,6 @@
 @import "globals.css";
 
+/* START HERO */
 
 .golf-magic-hero {
     margin-top: 120px;
@@ -11,26 +12,6 @@
     right: 0;
     left: 0;
     overflow: hidden;
-}
-
-#golf-magic-work-info-section {
-    height: 1000px;
-}
-
-.work-info-card {
-    width: 1200px;
-    /* height: 600px; */
-    background-color: #1A3152;
-    margin: 50px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 20px;
-    text-align: center;
-    padding: 50px 0px;
-}
-
-#golf-magic-spice-up-section {
-    height: 800px;
 }
 
 .golf-magic-hero-title {
@@ -45,6 +26,22 @@
     color: #ffffff;
     text-align: center;
     font-size: 25px;
+}
+
+/* END HERO */
+
+/* START WORK INFO */
+
+.work-info-card {
+    width: 1200px;
+    /* height: 600px; */
+    background-color: #1A3152;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    text-align: center;
+    padding: 50px 0px;
 }
 
 .work-info-intro {
@@ -68,7 +65,6 @@
 .work-info-card-section {
     color: #ffffff;
     width: 500px;
-    /* height: 300px; */
     text-align: center;
     margin: 0 auto;
 }
@@ -86,16 +82,9 @@
     font-weight: lighter;
 }
 
-.golf-magic-quotation-body {
-    color: #ffffff;
-    text-align: center;
-    width: calc(100% - 400px);
-    margin: 130px auto 0px auto;
-}
+/* END WORK INFO */
 
-#golf-magic-quote-banner > div {
-    height: 450px;
-}
+/* START SPICE IT UP */
 
 .spice-up-body-wrapper {
     display: flex;
@@ -120,3 +109,5 @@
     font-weight: lighter;
     text-align: center;
 }
+
+/* END SPICE IT UP */

@@ -1,6 +1,7 @@
 @import "globals.css";
 
 
+/* START HERO */
 
 .comedy-magic-hero {
     margin-top: 120px;
@@ -14,36 +15,6 @@
     overflow: hidden;
     background-color: #1d1d1ddc;
 }
-
-.comedy-magic-video-card {
-    height: 500px;
-    max-width: 1200px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-
-.testimonials-wrapper {
-    background-image: url("../images/comedy-magic-testimonials-image.png");
-    height: 1200px;
-    background-size: cover;
-    background-position: center center;
-    overflow: hidden;
-}
-
-#comedy-magic-stage-show-section {
-    height: 1300px;
-}
-
-#comedy-magic-close-up-section {
-    height: 1300px;
-    background-color: #213351;
-    overflow: hidden;
-    border-bottom: 2px solid #ffffff;
-}
-
 
 .comedy-magic-hero-title {
     color: #ffffff;
@@ -60,22 +31,36 @@
     color: #ffffff;
 }
 
+/* END HERO */
+
+/* START VIDEO CARD */
+
+.comedy-magic-video-card {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
 .comedy-magic-video {
     height: 450px;
     width: 600px;
     outline: 1px solid black;
-    margin: 25px 0px auto 40px;
+}
+
+.video-card-body {
+    margin-right: 70px;
 }
 
 .video-card-heading {
     text-align: center;
     font-family: "Copperplate";
-    margin-top: 40px;
 }
 
 .video-card-text {
     width: 400px;
-    /*text-align: center;*/
     font-family: "Cochin";
     letter-spacing: 0.6px;
     font-size: 15px;
@@ -86,8 +71,15 @@
     border-bottom: 1px solid hsl(218, 42%, 42%);
 }
 
-.video-card-body {
-    margin-right: 70px;
+/* END VIDEO CARD */
+
+/* START TESTIMONIALS */
+
+.testimonials-wrapper {
+    background-image: url("../images/comedy-magic-testimonials-image.png");
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
 }
 
 .t-card-1 {
@@ -133,7 +125,6 @@
 
 .testimonial-card-body {
     padding: 20px 40px 40px 40px;
-    /*text-align: center;*/
     font-family: "Cochin";
     letter-spacing: 0.43px;
 }
@@ -149,6 +140,14 @@
     font-family: "Copperplate";
     width: 80%;
     margin: 0 auto;
+}
+
+/* END TESTIMONIALS */
+
+/* START STAGE SHOW */
+
+#comedy-magic-stage-show-section {
+    height: 1300px;
 }
 
 .stage-show-title {
@@ -172,7 +171,6 @@
 }
 
 .stage-show-body-text {
-    /*text-align: center;*/
     margin-left: 50px;
     font-family: "Cochin";
     font-size: 20px;
@@ -182,6 +180,10 @@
     width: 1000px;
     margin: 0 auto;
 }
+
+/* END STAGE SHOW */
+
+/* START WAKEITUP */
 
 .wakeitup-title {
     font-size: 40px;
@@ -202,6 +204,16 @@
 
 .wakeitup-bold {
     font-weight: bold;
+}
+
+/* END WAKEITUP */
+
+/* START CLOSE-UP */
+
+#comedy-magic-close-up-section {
+    background-color: #213351;
+    overflow: hidden;
+    border-bottom: 2px solid #ffffff;
 }
 
 .close-up-title {
@@ -253,6 +265,7 @@
     text-align: center;
     letter-spacing: 0.32px;
     font-weight: lighter;
+    margin-top: 100px;
 }
 
 .ideas-card-title {
@@ -285,3 +298,16 @@
     height: 390px;
     background-color: #ffffff;
 }
+
+
+/* END CLOSE-UP */
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 
 @import "globals.css";
 
-/* START HOMEPAGE CSS */
+/* START HERO */
 
 .homepage-hero {
     margin-top: 120px;
@@ -41,6 +41,9 @@
     top: 470px;
 }
 
+/* END HERO  */
+
+/* START HOMEPAGE CARDS */
 .homepage-cards-wrapper {
     display: flex;
     flex-direction: row;
@@ -81,20 +84,20 @@
     line-height: 28px;
 }
 
-.homepage-quotation-body {
-    color: #ffffff;
-    text-align: center;
-    width: calc(100% - 400px);
-    margin: 130px auto 0px auto;
-}
+/* END HOMEPAGE CARDS */
+
+/* START QUOTATION */
 
 .homepage-quotation-author {
     margin-top: 80px;
 }
 
+/* END QUOTATION */
+
+/* START BIO */
 #homepage-bio-section {
     overflow: hidden;
-    height: 750px;
+    margin: 0px auto 90px auto;
 }
 
 .homepage-bio {
@@ -115,6 +118,10 @@
     /*text-align: center;*/
     line-height: 45px;
 }
+
+/* END BIO */
+
+/* START CONTACT */
 
 .homepage-contact {
     width: 500px;
@@ -142,3 +149,5 @@
 .homepage-contact-info:hover {
     color: hsl(215, 55%, 40%);
 }
+
+/* END CONTACT */
