@@ -1,34 +1,33 @@
 @import "globals.css";
 
-
 /* START HERO */
 
 .comedy-magic-hero {
-    margin-top: 120px;
-    background-image: url("../images/comedy-magic-hero-image.png");
-    height: 600px;
-    background-size: cover;
-    background-position: center center;
-    top: 120px; /* header height */
-    right: 0;
-    left: 0;
-    overflow: hidden;
-    background-color: #1d1d1ddc;
+  margin-top: 120px;
+  background-image: url("../images/comedy-magic-hero-image.png");
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
+  top: 120px; /* header height */
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #1d1d1ddc;
 }
 
 .comedy-magic-hero-title {
-    color: #ffffff;
-    text-align: center;
-    font-size: 69px;
-    font-weight: lighter;
-    margin-top: 100px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 69px;
+  font-weight: lighter;
+  margin-top: 100px;
 }
 
 .comedy-magic-hero-subtitle {
-    width: 700px;
-    text-align: center;
-    margin: 0 auto;
-    color: #ffffff;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
 }
 
 /* END HERO */
@@ -36,39 +35,38 @@
 /* START VIDEO CARD */
 
 .comedy-magic-video-card {
-    max-width: 1200px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px;
+  max-width: 1100px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
 }
 
 .comedy-magic-video {
-    height: 450px;
-    width: 600px;
-    outline: 1px solid black;
+  width: 600px;
+  outline: 1px solid black;
 }
 
 .video-card-body {
-    margin-right: 70px;
+  margin-right: 10px;
 }
 
 .video-card-heading {
-    text-align: center;
-    font-family: "Copperplate";
+  text-align: center;
+  font-family: "Copperplate";
 }
 
 .video-card-text {
-    width: 400px;
-    font-family: "Cochin";
-    letter-spacing: 0.6px;
-    font-size: 15px;
-    line-height: 25px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid hsl(218, 42%, 42%);
+  width: 400px;
+  font-family: "Cochin";
+  letter-spacing: 0.6px;
+  font-size: 15px;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid hsl(218, 42%, 42%);
 }
 
 /* END VIDEO CARD */
@@ -76,70 +74,70 @@
 /* START TESTIMONIALS */
 
 .testimonials-wrapper {
-    background-image: url("../images/comedy-magic-testimonials-image.png");
-    background-size: cover;
-    background-position: center center;
-    overflow: hidden;
+  background-image: url("../images/comedy-magic-testimonials-image.png");
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
 }
 
 .t-card-1 {
-    grid-area: card1;
+  grid-area: card1;
 }
 
 .t-card-2 {
-    grid-area: card2;
+  grid-area: card2;
 }
 
 .t-card-3 {
-    grid-area: card3;
+  grid-area: card3;
 }
 
 .t-card-4 {
-    grid-area: card4;
+  grid-area: card4;
 }
 
 .t-card-5 {
-    grid-area: card5;
+  grid-area: card5;
 }
 
 .testimonial-cards-wrapper {
-    width: 1000px;
-    display: grid;
-    grid-template-areas: 
-        'card1 card2 card3'
-        'card4 card4 card5';
-    row-gap: 50px;
-    column-gap: 50px;
-    margin: 100px auto;
+  width: 1000px;
+  display: grid;
+  grid-template-areas:
+    "card1 card2 card3"
+    "card4 card4 card5";
+  row-gap: 50px;
+  column-gap: 50px;
+  margin: 100px auto;
 }
 
 .testimonial-card {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .testimonial-card > hr {
-    width: 100px;
-    margin-top: 30px;
-    border: 1px solid #1A3152;
+  width: 100px;
+  margin-top: 30px;
+  border: 1px solid #1a3152;
 }
 
 .testimonial-card-body {
-    padding: 20px 40px 40px 40px;
-    font-family: "Cochin";
-    letter-spacing: 0.43px;
+  padding: 20px 40px 40px 40px;
+  font-family: "Cochin";
+  letter-spacing: 0.43px;
 }
 
 .testimonial-card-name {
-    text-align: center;
-    font-family: "Copperplate";
-    font-size: 20px;
+  text-align: center;
+  font-family: "Copperplate";
+  font-size: 20px;
 }
 
 .testimonial-card-position {
-    text-align: center;
-    font-family: "Copperplate";
-    width: 80%;
-    margin: 0 auto;
+  text-align: center;
+  font-family: "Copperplate";
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* END TESTIMONIALS */
@@ -147,38 +145,39 @@
 /* START STAGE SHOW */
 
 #comedy-magic-stage-show-section {
-    height: 1300px;
+  margin: 40px 0px;
 }
 
 .stage-show-title {
-    font-size: 75px;
-    text-align: center;
-    margin-bottom: 0px;
+  font-size: 75px;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 .stage-show-subtitle {
-    font-size: 35px;
-    text-align: center;
-    letter-spacing: .5px;
-    margin-top: 0px;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
 }
 
 .stage-show-body-wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 1000px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .stage-show-body-text {
-    margin-left: 50px;
-    font-family: "Cochin";
-    font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "Cochin";
+  font-size: 20px;
 }
 
 .stage-show-wakeitup-wrapper {
-    width: 1000px;
-    margin: 0 auto;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 /* END STAGE SHOW */
@@ -186,24 +185,23 @@
 /* START WAKEITUP */
 
 .wakeitup-title {
-    font-size: 40px;
-    font-family: "Bodoni 72 Oldstyle";
-    font-weight: lighter;
-    margin-left: 20px;
-    margin-right: 20px;
+  font-size: 40px;
+  font-family: "Bodoni 72 Oldstyle";
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .wakeitup-text {
-    font-family: "Cochin";
-    font-size: 20px;
-    font-weight: lighter;
-    margin-left: 20px;
-    margin-right: 20px;
-
+  font-family: "Cochin";
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .wakeitup-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* END WAKEITUP */
@@ -211,103 +209,477 @@
 /* START CLOSE-UP */
 
 #comedy-magic-close-up-section {
-    background-color: #213351;
-    overflow: hidden;
-    border-bottom: 2px solid #ffffff;
+  background-color: #213351;
+  overflow: hidden;
+  border-bottom: 2px solid #ffffff;
 }
 
 .close-up-title {
-    font-family: "Bodoni 72 Oldstyle;";
-    font-size: 55px;
-    color: #ffffff;
-    font-weight: lighter;
-    letter-spacing: .68px;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 50px;
+  font-family: "Bodoni 72 Oldstyle;";
+  font-size: 55px;
+  color: #ffffff;
+  font-weight: lighter;
+  letter-spacing: 0.68px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
 }
 
 .close-up-subtitle {
-    font-family: "Bodoni 72 Oldstyle;";
-    font-size: 25px;
-    color: #ffffff;
-    font-weight: lighter;
-    letter-spacing: 0.32px;
-    text-align: center;
-    margin-top: 0px;
+  font-family: "Bodoni 72 Oldstyle;";
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: lighter;
+  letter-spacing: 0.32px;
+  text-align: center;
+  margin-top: 0px;
 }
 
 .close-up-body-wrapper {
-    display: flex;
-    flex-direction: row;
-    color: #ffffff;
-    width: 1200px;
-    margin: 70px auto 0px auto;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  margin: 70px auto 0px auto;
 }
 
 .close-up-body-text {
-    font-family: "Cochin";
-    font-size: 20px;
-    font-weight: lighter;
-    margin-right: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+  font-family: "Cochin";
+  font-size: 20px;
+  font-weight: lighter;
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .close-up-body-image {
-    margin-right: 20px;
+  margin-right: 20px;
+  height: 400px;
 }
 
 .close-up-ideas-title {
-    font-family: "Bodoni 72 Oldstyle";
-    color: #ffffff;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 0.32px;
-    font-weight: lighter;
-    margin-top: 100px;
+  font-family: "Bodoni 72 Oldstyle";
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.32px;
+  font-weight: lighter;
+  margin-top: 100px;
 }
 
 .ideas-card-title {
-    font-family: "Bodoni 72 Oldstyle";
-    font-size: 23px;
-    color: #0C1829;
-    text-align: center;
-    letter-spacing: 0.23px;
-    font-weight: lighter;
+  font-family: "Bodoni 72 Oldstyle";
+  font-size: 23px;
+  color: #0c1829;
+  text-align: center;
+  letter-spacing: 0.23px;
+  font-weight: lighter;
 }
 
 .ideas-card-text {
-    font-family: "Cochin";
-    font-size: 17px;
-    color: #0C1829;
-    text-align: center;
-    padding: 0px 30px;
+  font-family: "Cochin";
+  font-size: 17px;
+  color: #0c1829;
+  text-align: center;
+  padding: 0px 30px;
 }
 
 .close-up-cards-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1200px;
-    margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
 }
 
 .close-up-card {
-    width: 280px;
-    height: 390px;
-    background-color: #ffffff;
+  width: 280px;
+  height: 390px;
+  background-color: #ffffff;
+  margin-top: 50px;
 }
-
 
 /* END CLOSE-UP */
 
+/* START BREAKPOINTS */
 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
 
+  /* START HERO */
 
+  .comedy-magic-hero {
+    margin-top: 10px;
+    background-image: url("../images/comedy-magic-hero-image-mobile.png");
+  }
 
+  .comedy-magic-hero-title {
+    width: 80%;
+    margin: 100px auto 30px auto;
+    text-align: center;
+    font-size: 45px;
+  }
 
+  .comedy-magic-hero-subtitle {
+    width: 80%;
+    font-size: 17px;
+    text-align: center;
+    line-height: 20px;
+  }
 
+  /* END HERO */
 
+  /* START VIDEO CARD */
 
+  .comedy-magic-video {
+    margin: 0 auto;
+    width: 99%;
+  }
 
+  .comedy-magic-video-card {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px 10px;
+  }
+
+  .video-card-body {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .video-card-text {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  /* END VIDEO CARD */
+
+  /* START TESTIMONIALS */
+
+  .testimonial-cards-wrapper {
+    width: 90%;
+
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5";
+  }
+
+  /* END TESTIMONIALS */
+
+  /* START STAGE SHOW */
+
+  .stage-show-body-wrapper {
+    width: 90%;
+  }
+
+  .stage-show-subtitle {
+    margin-bottom: 10px;
+  }
+
+  .stage-show-body-image {
+    display: none;
+  }
+
+  .stage-show-body-text {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  /* END STAGE SHOW */
+
+  /* START WAKEITUP */
+
+  .stage-show-wakeitup-wrapper {
+    width: 90%;
+  }
+
+  .wakeitup-text {
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  /* END WAKEITUP */
+
+  /* START CLOSEUP */
+
+  .close-up-body-wrapper {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .close-up-body-image {
+    width: 90%;
+    margin: 20px auto 0px auto;
+  }
+
+  .close-up-ideas-title {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .close-up-cards-wrapper {
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 0px;
+  }
+
+  .close-up-card {
+    width: 90%;
+    margin: 40px auto 20px auto;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  /* END CLOSEUP */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* START HERO */
+
+  .comedy-magic-hero-title {
+    width: 80%;
+    margin: 100px auto 30px auto;
+    text-align: left;
+  }
+
+  .comedy-magic-hero-subtitle {
+    width: 80%;
+    font-size: 17px;
+    text-align: left;
+  }
+
+  /* END HERO */
+
+  /* START VIDEO CARD */
+
+  .comedy-magic-video {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .comedy-magic-video-card {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .video-card-body {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .video-card-text {
+    margin: 0 auto;
+  }
+
+  /* END VIDEO CARD */
+
+  /* START TESTIMONIALS */
+
+  .testimonial-cards-wrapper {
+    width: 90%;
+
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5";
+  }
+
+  /* END TESTIMONIALS */
+
+  /* START STAGE SHOW */
+
+  .stage-show-body-wrapper {
+    width: 90%;
+  }
+
+  .stage-show-body-image {
+    display: none;
+  }
+
+  /* END STAGE SHOW */
+
+  /* START WAKEITUP */
+
+  .stage-show-wakeitup-wrapper {
+    width: 90%;
+  }
+
+  /* END WAKEITUP */
+
+  /* START CLOSEUP */
+
+  .close-up-body-wrapper {
+    flex-direction: column;
+  }
+
+  .close-up-body-image {
+    width: 450px;
+    margin: 20px auto 0px auto;
+  }
+
+  .close-up-ideas-title {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .close-up-cards-wrapper {
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 0px;
+  }
+
+  .close-up-card {
+    width: 90%;
+    margin: 40px auto 20px auto;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  /* END CLOSEUP */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* START HERO */
+
+  .comedy-magic-hero-title {
+    width: 90%;
+    margin: 70px auto 30px auto;
+  }
+
+  .comedy-magic-hero-subtitle {
+    width: 80%;
+    font-size: 19px;
+  }
+
+  /* END HERO */
+
+  /* START VIDEO CARD */
+
+  .comedy-magic-video {
+    margin: 0 auto;
+  }
+
+  .comedy-magic-video-card {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .video-card-body {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .video-card-text {
+    margin: 0 auto;
+  }
+
+  /* END VIDEO CARD */
+
+  /* START TESTIMONIALS */
+
+  .testimonial-cards-wrapper {
+    width: 90%;
+
+    grid-template-areas:
+      "card1 card2"
+      "card3 card5"
+      "card4 card4";
+  }
+
+  /* END TESTIMONIALS */
+
+  /* START STAGE SHOW */
+
+  .stage-show-body-wrapper {
+    width: 90%;
+  }
+
+  .stage-show-body-image {
+    /* width: 300px; */
+    height: 400px;
+  }
+
+  /* END STAGE SHOW */
+
+  /* START WAKEITUP */
+
+  .stage-show-wakeitup-wrapper {
+    width: 90%;
+  }
+
+  /* END WAKEITUP */
+
+  /* START CLOSEUP */
+
+  .close-up-ideas-title {
+    margin-bottom: 0px;
+  }
+
+  .close-up-cards-wrapper {
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 0px;
+  }
+
+  .close-up-card {
+    width: 45%;
+  }
+
+  /* END CLOSEUP */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* START TESTIMONIALS */
+
+  .testimonial-cards-wrapper {
+    width: 90%;
+  }
+
+  /* END TESTIMONIALS */
+
+  /* START STAGE SHOW */
+
+  .stage-show-body-wrapper {
+    width: 90%;
+  }
+
+  /* END STAGE SHOW */
+
+  /* START WAKEITUP */
+
+  .stage-show-wakeitup-wrapper {
+    width: 90%;
+  }
+
+  /* END WAKEITUP */
+
+  /* START CLOSE UP */
+
+  .close-up-cards-wrapper {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .close-up-ideas-title {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  /* END CLOSE UP */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* END BREAKPOINTS */
