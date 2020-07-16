@@ -93,6 +93,14 @@ scrollbar-width: none;  /* Firefox */
     text-decoration: underline;
 }
 
+.nav-open {
+
+}
+
+.nav-closed {
+
+}
+
 .logo {
     font-family: "Arial Black";
     font-size: 26px;
@@ -218,7 +226,7 @@ scrollbar-width: none;  /* Firefox */
 
 /* END MISC  */
 
-/* START BREAKPOINTS */
+/* START BREAKPOINTS *
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -226,7 +234,6 @@ scrollbar-width: none;  /* Firefox */
     /* START NAV */
 
     .header {
-        height: 70px !important;
         justify-content: center;
         padding-top: 0px !important;
     }
@@ -235,16 +242,28 @@ scrollbar-width: none;  /* Firefox */
         display: block;
     }
 
-    .nav {
-        display: none;
-    }
-
-    .social-icons {
-        display: none;
-    }
-
     .nav-link {
         margin: 7px auto;
+    }
+
+    .nav-open .nav {
+        flex-direction: column;
+    }
+    
+    .nav-open.header {
+        height: 350px !important;
+    }
+
+    .nav-closed.header {
+        height: 70px !important;
+    }
+    
+    .nav-closed .nav {
+        display: none;
+    }
+    
+    .nav-closed .social-icons {
+        display: none;
     }
 
     /* END NAV */
