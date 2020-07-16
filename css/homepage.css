@@ -25,7 +25,6 @@
     /* Position */
     position: absolute;
     left: 220px;
-
 }
 
 .homepage-hero-subtitle {
@@ -54,8 +53,7 @@
 }
 
 .homepage-card {
-    width: 360px;
-    height: 370px;
+    margin: auto 10px;
 }
 
 .card-icon-wrapper {
@@ -78,7 +76,7 @@
 .card-body {
     font-family: "Malayalam Sangam MN";
     text-align: center;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 25px 20px;
     letter-spacing: 0.8px;
     font-size: 18px;
     line-height: 28px;
@@ -101,8 +99,8 @@
 }
 
 .homepage-bio {
-    width: 1000px;
-    margin: 70px auto;
+    max-width: 1000px;
+    margin: 70px 30px auto 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -157,20 +155,236 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
+    /* START HERO */
+
+    .homepage-hero {
+        background-image: url("../images/homepage-hero-image-mobile.png");
+        margin-top: 70px;
+    }
+
+    .homepage-hero-title {
+        position: initial;
+        margin: 90px auto 30px auto;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    .homepage-hero-subtitle {
+        position: initial;
+        text-align: center;
+        margin: 0 20px;
+        font-size: 18px;
+        width: auto;
+    }
+
+    /* END HERO */
+
+    /* START CARDS */ 
+
+    .homepage-cards-wrapper {
+        flex-basis: 200px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .homepage-card {
+        /* width: 265px; */
+        margin-top: 30px;
+    }
+
+    /* END CARDS */
+
+    /* START BIO */
+
+    .homepage-bio {
+        flex-direction: column;
+    }
+
+    .homepage-bio > img {
+        width: 300px;
+    }
+
+    .homepage-bio-body {
+        font-size: 20px;
+        line-height: 35px;
+        width: 90%;
+    }
+
+    .homepage-contact {
+        width: 100%;
+    }
+
+    .homepage-contact-wrapper {
+        justify-content: center;
+    }
+
+    .homepage-contact-info {
+        font-size: 18px;
+    }
+
+    .homepage-contact-icon {
+        height: 20px;
+    }
+    
+
+    /* END BIO */
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* START HERO */
+
+    .homepage-hero {
+        background-image: url("../images/homepage-hero-image-mobile.png");
+    }
+
+    .homepage-hero-title {
+        position: initial;
+        margin: 150px auto 30px auto;
+        font-size: 65px;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    .homepage-hero-subtitle {
+        position: initial;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* END HERO */
+
+    /* START CARDS */ 
+
+    .homepage-cards-wrapper {
+        flex-basis: 200px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .homepage-card {
+        width: 265px;
+        margin-top: 30px;
+    }
+
+    /* END CARDS */
+
+    /* START BIO */
+
+    .homepage-bio {
+        flex-direction: column;
+    }
+
+    .homepage-bio > img {
+        width: 300px;
+    }
+
+    .homepage-bio-body {
+        font-size: 20px;
+        line-height: 35px;
+        /* width: 500px; */
+    }
+
+    .homepage-contact-wrapper {
+        justify-content: flex-start;
+    }
+
+    .homepage-contact-info {
+        font-size: 18px;
+    }
+
+    .homepage-contact-icon {
+        height: 20px;
+    }
+    
+
+    /* END BIO */
 
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+    /* START HERO */
+
+    .homepage-hero-title {
+        left: 50px;
+        font-size: 70px;
+    }
+
+    .homepage-hero-subtitle {
+        left: 50px;
+        font-size: 18px;
+        width: 400px;
+    }
+
+    /* END HERO */
+
+    /* START CARDS */
+
+    .homepage-card .card-body {
+        font-size: 15px;
+    }
+
+    .homepage-card .card-icon-wrapper > img {
+        width: 30px;
+    }
+
+    .homepage-card .card-title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    /* END CARDS */
+
+    /* START BIO */
+
+    .homepage-bio-body {
+        font-size: 20px;
+        line-height: 35px;
+        margin-left: 30px;
+    }
+
+    .homepage-bio > img {
+        width: 300px;
+    }
+
+    .homepage-contact-info {
+        font-size: 18px;
+    }
+
+    .homepage-contact-icon {
+        height: 20px;
+    }
+
+    /* END BIO */
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* START HERO */
+    .homepage-hero-title {
+        left: 100px;
+    }
+
+    .homepage-hero-subtitle {
+        left: 100px;
+    }
+
+    /* END HERO */
+
+    /* START HOMEPAGE CARDS */
+
+    .homepage-cards-wrapper {
+        width: 90%;
+    }
+
+    /* END HOMEPAGE CARDS */
 
 }
 
