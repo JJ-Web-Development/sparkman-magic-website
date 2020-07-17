@@ -118,7 +118,7 @@
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 375px) {
+@media (max-width: 375px) {
 
     /* START HERO */
 
@@ -191,9 +191,13 @@
     /* END SPICE IT UP */
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 
     /* START HERO */
+
+    .golf-magic-hero {
+        margin-top: 20px;
+    }
 
     .golf-magic-hero-title {
         margin-top: 150px;
@@ -224,6 +228,15 @@
         width: 80%;
     }
 
+    .work-intro-list {
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .work-info-card {
+        grid-template-columns: 1fr;
+    }
+
     /* END WORK INFO */
 
 
@@ -239,12 +252,23 @@
         margin: 0 auto;
     }
 
+    .spice-up-body-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .spice-up-body-image {
+        width: 70%;
+        height: auto !important;
+        margin-top: 30px;
+    }
+
     /* END SPICE IT UP */
 
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     /* START HERO */
     .golf-magic-hero-title {
@@ -288,7 +312,7 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
 
     /* START WORK INFO */
 
@@ -314,6 +338,10 @@
 
     .spice-up-body-wrapper {
         width: 90%;
+    }
+
+    .spice-up-body-image {
+        height: 400px;
     }
 
     /* END SPICE IT UP */
