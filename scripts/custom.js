@@ -15,8 +15,8 @@ $(document).ready(() => {
   });
 
   $("#nav-dropdown-btn").click(() => {
-    console.log("test");
     $(".header").toggleClass("nav-open").toggleClass("nav-closed");
+    $("#nav-dropdown-btn").toggleClass("flipped");
   });
   
 });
