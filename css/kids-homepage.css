@@ -1,0 +1,117 @@
+@import "globals.css";
+
+/* START HERO */
+
+.kids-homepage-hero {
+    background-image: url("../images/kids-homepage-hero-image.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 120px;
+    overflow: hidden;
+}
+
+.kids-homepage-hero-title {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.kids-homepage-hero-subtitle {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/* END HERO */
+
+/* START VIDEO */
+
+.kids-video-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0px 20px;
+}
+
+.kids-video-text {
+    width: 50%;
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 30px;
+}
+
+.kids-video {
+    width: 40%;
+    height: 300px;
+}
+
+/* END VIDEO */
+
+/* START CARDS */
+
+.kids-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.kids-card {
+    width: 25%;
+    padding: 20px;
+}
+
+.kids-card-title {
+    text-align: center;
+}
+
+.kids-card-text {
+    text-align: center;
+}
+
+.kids-card-link {
+    margin-top: auto;
+    text-align: center;
+}
+
+.kids-card-logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kids-card-logo-wrapper img {
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    display: block;
+}
+
+.kids-card-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.kids-card-link img {
+    height: 15px;
+    margin-left: 10px;
+}
+
+/* END CARDS */
+
+/* START QUOTE BANNER */
+
+#kids-quote-banner {
+    margin: 50px 0px;
+}
+
+/* END QUOTE BANNER */
