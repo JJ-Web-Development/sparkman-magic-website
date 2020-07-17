@@ -115,6 +115,14 @@ scrollbar-width: none;  /* Firefox */
     display: none;
 }
 
+#nav-dropdown-btn {
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+#nav-dropdown-btn.flipped {
+    transform: rotate(180deg);
+}
+
 .social-icons {
     display: flex;
     flex-direction: row;
@@ -126,6 +134,10 @@ scrollbar-width: none;  /* Firefox */
 .social-icon {
     height: 25px;
     margin-right: 10px;
+}
+
+.social-icon:hover {
+    filter: brightness(0.8);
 }
 /* END NAVIGATION  */
 
@@ -344,7 +356,7 @@ scrollbar-width: none;  /* Firefox */
 
     /* START NAV */
     .nav-link {
-        font-size: 15px;
+        font-size: 18px;
         text-align: center;
     }
 
