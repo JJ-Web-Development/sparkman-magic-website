@@ -1,0 +1,109 @@
+@import "globals.css";
+
+
+/* START HERO */
+
+.school-programs-hero-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    padding: 0px 50px;
+    justify-content: center;
+    margin: 150px auto 0px auto;
+    border-bottom: 2px solid #0C1829;
+}
+
+.school-programs-hero-image {
+    width: 300px;
+}
+
+.school-programs-title-wrapper {
+    margin-left: 30px;
+}
+
+.school-programs-hero-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.school-programs-hero-subtitle {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 21px;
+    letter-spacing: 0.61px;
+    line-height: 25px;
+    font-weight: lighter;
+}
+
+/* END HERO */
+
+/* START CARDS */
+
+.school-programs-cards-title {
+    text-align: center;
+}
+
+.school-programs-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.school-programs-card {
+    width: 27%;
+    padding: 20px;
+    background-color: #1A3152;
+    color: #ffffff;
+}
+
+.school-programs-card-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.school-programs-card-desc {
+    text-align: center;
+}
+
+.school-programs-card-body {
+    text-align: center;
+    font-size: 16px;
+}
+
+.school-programs-card-image {
+    width: 100%;
+}
+/* END CARDS */
+
+/* START MORE EXAMPLES */
+.more-examples-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    margin: 0px auto 50px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more-examples-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.more-examples-video {
+    height: 300px;
+    width: 400px;
+}
+
+.more-examples-pic {
+    height: 350px;
+}
+
+.more-examples-caption {
+    text-align: center;
+    font-weight: lighter;
+}
+/* END MORE EXAMPLES */
