@@ -1,0 +1,82 @@
+@import "globals.css";
+
+/* START HERO */
+.church-programs-hero {
+    background-image: url("../images/church-programs-hero-image.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 120px;
+    overflow: hidden;
+}
+
+.church-programs-hero-title {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 43px;
+}
+
+.church-programs-hero-subtitle {
+    color: #ffffff;
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* END HERO */
+
+/* START WHATS IMPORTANT SECTION */
+.church-programs-important-title {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.church-programs-important-wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.church-programs-important-body {
+    margin: 50px auto;
+}
+
+/* END WHATS IMPORTANT SECTION */
+
+/* START MAGIC BIBLE SECTION */
+
+.magic-bible-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.magic-bible-subsection-1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.magic-bible-image {
+    width: 300px;
+}
+
+.magic-bible-subsec1-text {
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+.magic-bible-text {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.magic-bible-subtitle {
+    width: 900px;
+    margin: 30px auto;
+}
+
+.magic-bible-subsection-2 {
+    margin: 50px auto;
+}
+
+/* END MAGIC BIBLE SECTION */
