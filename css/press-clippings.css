@@ -1,0 +1,89 @@
+@import "globals.css";
+
+/* START HERO */
+.press-clippings-hero {
+    background-image: url("../images/press-clippings-hero-image.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 120px;
+    overflow: hidden;
+}
+
+.press-clippings-hero-title {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.press-clippings-hero-subtitle {
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+/* END HERO */
+
+/* START SECTION 1 */
+
+.press-clippings-row {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.press-cllippings-section1-image {
+    width: 300px;
+}
+
+.press-clippings-section-1-text {
+    padding-right: 50px;
+    font-size: 17px;
+}
+
+/* END SECTION 1 */
+
+/* START SECTION 2 */
+
+.press-cllippings-section2-image {
+    width: 200px;
+}
+
+.press-clippings-section-2-text {
+    padding-right: 50px;
+}
+
+/* END SECTION 2 */
+
+/* START SECTION 3 */
+
+.press-cllippings-section3-image {
+    width: 450px;
+}
+
+/* END SECTION 3 */
+
+/* START SECTION 4 */
+
+.press-clippings-section-4-text {
+
+}
+
+.press-clippings-section-4-text > img {
+    float: right;
+    top: 0;
+    width: 300px;
+    padding: 0px 0px 20px 20px;
+}
+
+/* END SECTION 4 */
+
+/* START FREE CLIPS */ 
+.free-clip-image {
+    margin: 0 auto;
+    display: block;
+}
+/* END FREE CLIPS */
