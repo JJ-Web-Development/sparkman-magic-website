@@ -1,0 +1,63 @@
+@import "globals.css";
+
+/* START HERO */
+
+.about-hero {
+    background-image: url("../images/about-hero-image.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 120px;
+    overflow: hidden;
+}
+
+.about-hero-title {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-hero-text {
+    color: #ffffff;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 15px;
+    letter-spacing: 0.61px;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+/* END HERO */
+
+/* START WHY SPARKMAN */
+
+.why-sparkman-title {
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: "Bodoni 72 Oldstyle;";
+    font-weight: lighter;
+    text-align: center;
+}
+
+.why-sparkman-item {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.why-sparkman-image {
+    width: 50px;
+}
+
+.why-sparkman-image-wrapper {
+    padding-right: 50px;
+}
+
+#why-sparkman-section {
+    margin: 50px auto;
+}
+/* END WHY SPARKMAN */
+
