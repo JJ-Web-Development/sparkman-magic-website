@@ -115,3 +115,80 @@
 }
 
 /* END QUOTE BANNER */
+
+/* START BREAKPOINTS */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 576px) {
+
+    /* START HERO */
+
+    .kids-homepage-hero {
+        margin-top: 20px;
+    }
+
+    .kids-homepage-hero-subtitle {
+        font-size: 19px;
+    }
+
+    /* END HERO */
+
+    /* START VIDEO */
+
+    .kids-video-text {
+        font-size: 20px;
+    }
+
+    /* END VIDEO */
+
+    /* START CARDS */
+
+    .kids-cards-wrapper {
+        flex-direction: column;
+    }
+    .kids-card {
+        width: 90%;
+    }
+    
+    /* END CARDS */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    /* START VIDEO SECTION */
+
+    .kids-video {
+        width: 90%;
+    }
+
+    .kids-video-text {
+        width: 90%;
+    }
+
+    .kids-video-wrapper {
+        flex-direction: column;
+    };
+
+
+    /* END VIDEO SECTION */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .kids-video-wrapper {
+        align-items: center;
+    }
+}
+
+
+/* END BREAKPOINTS */

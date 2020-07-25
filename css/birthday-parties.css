@@ -70,3 +70,54 @@
         margin: 50px auto;
     }
 /* END QUOTE */
+
+/* START BREAKPOINTS */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 576px) {
+
+    /* START HERO */
+
+    .birthday-parties-hero {
+        margin-top: 20px;
+    }
+
+    /* END HERO */
+
+    /* START PROBLEM */
+
+    .problem-cols-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* END PROBLEM */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    
+    /* START HERO */
+
+    .birthday-parties-hero-title {
+        margin-top: 130px;
+    }
+
+    .birthday-parties-hero-subtitle {
+        font-size: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* END HERO */
+
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+/* @media (max-width: 992px) {} */
+
+
+/* END BREAKPOINTS */

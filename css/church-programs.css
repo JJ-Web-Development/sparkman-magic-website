@@ -80,3 +80,89 @@
 }
 
 /* END MAGIC BIBLE SECTION */
+
+/* START BREAKPOINTS */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 576px) {
+
+    /* START HERO */
+    .church-programs-hero {
+        margin-top: 20px;
+    }
+    /* END HERO */
+    
+    /* START WHATS IMPORTANT */
+
+    .church-programs-important-wrapper {
+        width: 90%;
+    }
+
+    /* END WHATS IMPORTANT */
+
+    /* START MAGIC BIBLE */
+
+    .magic-bible-title {
+        width: 90%;
+        margin: 40px auto 20px auto;
+    }
+
+    .magic-bible-subsec1-text {
+        padding: 0;
+    }
+
+    /* END MAGIC BIBLE */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    /* START HERO */
+    .church-programs-hero-title {
+        font-size: 35px !important;
+        width: 90%;
+        margin: 150px auto 30px auto;
+    }
+    /* END HERO */
+
+    /* START MAGIC BIBLE */
+
+    .magic-bible-subsection-1 {
+        flex-direction: column;
+    }
+
+    .magic-bible-subsec1-images-wrapper {
+        display: flex;
+        flex-direction: row;
+        margin: 30px auto 0px auto;
+    }
+    
+    .magic-bible-image {
+        width: 50%;
+    }
+
+    /* END MAGIC BIBLE */
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+    /* START MAGIC BIBLE */
+    .magic-bible-subsection-1, .magic-bible-subsection-2 {
+        width: 90%;
+    }
+
+    .magic-bible-text, .magic-bible-subtitle {
+        width: auto;
+    }
+    /* END MAGIC BIBLE */
+
+}
+
+
+/* END BREAKPOINTS */
