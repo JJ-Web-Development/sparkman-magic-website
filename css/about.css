@@ -43,17 +43,21 @@
 .why-sparkman-item {
     display: flex;
     flex-direction: row;
-    width: 700px;
+    max-width: 700px;
     margin: 20px auto;
     align-items: center;
+    justify-content: space-between;
 }
 
 .why-sparkman-image {
-    width: 50px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .why-sparkman-image-wrapper {
-    padding-right: 50px;
+    padding-right: 30px;
+    width: 50px;
+    flex-shrink: 0;
 }
 
 #why-sparkman-section {
@@ -61,3 +65,59 @@
 }
 /* END WHY SPARKMAN */
 
+
+/* START BREAKPOINTS */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 576px) {
+
+    /* START HERO */
+
+    .about-hero {
+        margin-top: 20px;
+    }
+
+    /* END HERO */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    /* START HERO */
+
+    .about-hero-title {
+        margin: 100px auto 30px auto;
+        width: 90%;
+    }
+
+    .about-hero-text {
+        width: 90%;
+    }
+
+    .about-hero {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    /* END HERO */
+
+    /* START WHY */
+
+    .why-sparkman-item {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    /* END WHY */
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+/* @media (max-width: 992px) {
+} */
+
+
+/* END BREAKPOINTS */
