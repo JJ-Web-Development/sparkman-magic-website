@@ -36,7 +36,7 @@
 
     /* Position */
     position: absolute;
-    left: 200px;
+    left: 220px;
     top: 470px;
 }
 
@@ -100,11 +100,12 @@
 
 .homepage-bio {
     max-width: 1000px;
-    margin: 70px 30px auto 30px;
+    margin: 70px auto auto auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 30px;
 }
 
 .homepage-bio-body {

@@ -1,0 +1,137 @@
+@import "globals.css";
+
+/* START HERO */
+
+.about-hero {
+    background-image: url("../images/about-hero-image.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 120px;
+    overflow: hidden;
+}
+
+.about-hero-title {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-hero-text {
+    color: #ffffff;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 15px;
+    letter-spacing: 0.61px;
+    line-height: 20px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+/* END HERO */
+
+/* START WHY SPARKMAN */
+
+.why-sparkman-title {
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: "Bodoni 72 Oldstyle;";
+    font-weight: lighter;
+    text-align: center;
+}
+
+.why-sparkman-item {
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.why-sparkman-image {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.why-sparkman-image-wrapper {
+    padding-right: 30px;
+    width: 50px;
+    flex-shrink: 0;
+}
+
+#why-sparkman-section {
+    margin: 50px auto;
+}
+
+.why-sparkman-item-title {
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.why-sparkman-item-text {
+    font-family: "Cochin";
+    line-height: 25px;
+    font-size: 18px;
+}
+
+/* END WHY SPARKMAN */
+
+
+/* START BREAKPOINTS */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 576px) {
+
+    /* START HERO */
+
+    .about-hero {
+        margin-top: 20px;
+    }
+
+    /* END HERO */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    /* START HERO */
+
+    .about-hero-title {
+        margin: 100px auto 30px auto;
+        width: 90%;
+    }
+
+    .about-hero-text {
+        width: 90%;
+    }
+
+    .about-hero {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    /* END HERO */
+
+    /* START WHY */
+
+    .why-sparkman-item {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    /* END WHY */
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+/* @media (max-width: 992px) {
+} */
+
+
+/* END BREAKPOINTS */

@@ -1,0 +1,247 @@
+@import "globals.css";
+
+
+/* START HERO */
+
+.school-programs-hero-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    padding: 0px 50px;
+    justify-content: center;
+    margin: 150px auto 0px auto;
+    border-bottom: 2px solid #0C1829;
+}
+
+.school-programs-hero-image {
+    width: 300px;
+}
+
+.school-programs-title-wrapper {
+    margin-left: 30px;
+}
+
+.school-programs-hero-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.school-programs-hero-subtitle {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 21px;
+    letter-spacing: 0.61px;
+    line-height: 25px;
+    font-weight: lighter;
+}
+
+/* END HERO */
+
+/* START CARDS */
+
+.school-programs-cards-title {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.school-programs-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin: 30px auto;
+}
+
+.school-programs-card {
+    width: 27%;
+    padding: 20px;
+    background-color: #1A3152;
+    color: #ffffff;
+}
+
+.school-programs-card-title {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Copperplate";
+    font-weight: lighter;
+}
+
+.school-programs-card-desc {
+    text-align: center;
+}
+
+.school-programs-card-body {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Malayalam Sangam MN";
+}
+
+.school-programs-card-image {
+    width: 100%;
+}
+
+/* END CARDS */
+
+/* START MORE EXAMPLES */
+
+.more-examples-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    margin: 0px auto 50px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more-examples-title {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Bodoni 72 Oldstyle";
+    font-weight: lighter;
+}
+
+.more-examples-video {
+    height: 300px;
+    width: 400px;
+}
+
+.more-examples-pic {
+    height: 350px;
+}
+
+.more-examples-caption {
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* END MORE EXAMPLES */
+
+/* START BREAKPOINTS */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 576px) {
+
+    /* START HERO */
+
+    .school-programs-title-wrapper {
+        margin-top: 100px !important;
+    }
+
+    .school-programs-hero-wrapper {
+        margin-top: 20px;
+        height: 500px !important;
+    }
+
+    /* END HERO */
+
+    /* START CARDS */
+
+    .school-programs-cards-wrapper {
+        margin-top: 0px;
+        padding-top: 0px !important;
+    }
+
+    /* END CARDS */
+
+    .more-examples-media-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .more-examples-video {
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    /* START HERO */
+
+    .school-programs-hero-image {
+        display: none;
+    }
+
+    .school-programs-hero-wrapper {
+        height: 400px;
+        width: 90%;
+        padding: 0px;
+    }
+
+    .school-programs-hero-title {
+        margin: 50px auto 20px auto;
+        font-size: 40px;
+        width: 90%;
+    }
+
+    .school-programs-title-wrapper {
+        margin: 100px auto 0 auto;
+    }
+
+    .school-programs-hero-subtitle {
+        font-size: 18px;
+    }
+
+    /* END HERO */
+
+    /* START CARDS */
+
+    .school-programs-cards-wrapper {
+        flex-direction: column;
+    }
+
+    .school-programs-card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    /* END CARDS */
+
+    /* START MORE EXAMPLES */
+
+    .more-examples-wrapper {
+        flex-direction: column;
+    }
+
+    .more-examples-pic, .more-examples-caption {
+        display: none;
+    }
+
+    /* END MORE EXAMPLES */
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+    /* START SCHOOL PROGRAMS */
+
+    .school-programs-hero-subtitle {
+        width: auto;
+    }
+
+    .school-programs-cards-wrapper {
+        padding: 20px;
+    }
+
+    /* END SCHOOL PROGRAMS */
+
+    /* START MORE EXAMPLES */
+
+    .more-examples-title {
+        width: 90%;
+        margin: 50px auto 30px auto;
+    }
+
+    /* END MORE EXAMPLES */
+}
+
+
+/* END BREAKPOINTS */
