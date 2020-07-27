@@ -31,7 +31,7 @@ scrollbar-width: none;  /* Firefox */
     /* Styling */
     height: 120px;
     background-color: #0C1829;
-    overflow: hidden;
+    /* overflow: hidden; */
     box-shadow: 0px 8px 13px #00000048;
     
     /* Positioning */
@@ -93,13 +93,6 @@ scrollbar-width: none;  /* Firefox */
     text-decoration: underline;
 }
 
-.nav-open {
-
-}
-
-.nav-closed {
-
-}
 
 .logo {
     font-family: "Arial Black";
@@ -139,7 +132,42 @@ scrollbar-width: none;  /* Firefox */
 .social-icon:hover {
     filter: brightness(0.8);
 }
+
+
+.services-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    padding: 20px 0px;
+}
+
+.services-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.services-dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    font-family: "Malayalam Sangam MN";
+    font-size: 17px;
+}
+
+.services-dropdown-content > hr {
+    width: 70%;
+    border: .001px solid rgba(125, 125, 125, 0.283);
+}
+
+/* Show the dropdown menu on hover */
+.services-dropdown:hover .services-dropdown-content {display: block;}
+
 /* END NAVIGATION  */
+
 
 
 /* START TYPOGRAPHY  */
@@ -348,6 +376,7 @@ scrollbar-width: none;  /* Firefox */
     }
 
     /* END HEADER */
+
 
 }
 
