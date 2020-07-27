@@ -63,6 +63,18 @@
 #why-sparkman-section {
     margin: 50px auto;
 }
+
+.why-sparkman-item-title {
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.why-sparkman-item-text {
+    font-family: "Cochin";
+    line-height: 25px;
+}
+
 /* END WHY SPARKMAN */
 
 

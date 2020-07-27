@@ -29,15 +29,28 @@
 .church-programs-important-title {
     text-align: center;
     margin: 30px auto;
+    font-family: "Bodoni 72 Oldstyle";
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.church-programs-important-subtitle {
+    font-family: "Bodoni 72 Oldstyle";
+}
+
+.church-programs-important-list {
+    font-family: "Cochin";
 }
 
 .church-programs-important-wrapper {
-    width: 500px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
 .church-programs-important-body {
     margin: 50px auto;
+    font-family: "Cochin";
+    line-height: 25px;
 }
 
 /* END WHATS IMPORTANT SECTION */
@@ -47,6 +60,9 @@
 .magic-bible-title {
     text-align: center;
     margin-top: 50px;
+    font-family: "Bodoni 72 Oldstyle";
+    font-weight: lighter;
+    font-size: 35px;
 }
 
 .magic-bible-subsection-1 {
@@ -63,16 +79,23 @@
 .magic-bible-subsec1-text {
     padding-right: 50px;
     font-size: 18px;
+    font-family: "Cochin";
+    line-height: 25px;
 }
 
 .magic-bible-text {
     width: 900px;
     margin: 0 auto;
+    font-family: "Cochin";
+    line-height: 25px;
 }
 
 .magic-bible-subtitle {
     width: 900px;
     margin: 30px auto;
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 30px;
+    font-weight: lighter;
 }
 
 .magic-bible-subsection-2 {

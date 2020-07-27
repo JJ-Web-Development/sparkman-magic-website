@@ -62,6 +62,23 @@
     height: 300px;
 }
 
+.problem-section-title {
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.problem-section-text {
+    font-family: "Cochin";
+    line-height: 27px;
+}
+
+.problem-section-youtube-caption {
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 /* END PROBLEM */
 

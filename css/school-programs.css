@@ -43,6 +43,9 @@
 .school-programs-cards-title {
     text-align: center;
     margin-top: 30px;
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 30px;
+    font-weight: lighter;
 }
 
 .school-programs-cards-wrapper {
@@ -64,6 +67,8 @@
 .school-programs-card-title {
     text-align: center;
     text-decoration: underline;
+    font-family: "Copperplate";
+    font-weight: lighter;
 }
 
 .school-programs-card-desc {
@@ -73,6 +78,7 @@
 .school-programs-card-body {
     text-align: center;
     font-size: 16px;
+    font-family: "Malayalam Sangam MN";
 }
 
 .school-programs-card-image {
@@ -95,6 +101,8 @@
 .more-examples-title {
     text-align: center;
     margin-top: 50px;
+    font-family: "Bodoni 72 Oldstyle";
+    font-weight: lighter;
 }
 
 .more-examples-video {

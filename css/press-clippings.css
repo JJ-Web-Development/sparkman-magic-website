@@ -31,6 +31,9 @@
 .press-clippings-title {
     max-width: 900px;
     margin: 30px auto 10px auto;
+    font-family: "Bodoni 72 Oldstyle";
+    font-size: 30px;
+    font-weight: lighter;
 }
 
 .press-clippings-row {
@@ -47,6 +50,8 @@
 .press-clippings-section-1-text {
     padding-right: 50px;
     font-size: 17px;
+    font-family: "Cochin";
+    line-height: 25px;
 }
 
 /* END SECTION 1 */
@@ -59,6 +64,8 @@
 
 .press-clippings-section-2-text {
     padding-right: 50px;
+    font-family: "Cochin";
+    line-height: 25px;
 }
 
 /* END SECTION 2 */
@@ -78,6 +85,8 @@
     top: 0;
     width: 300px;
     padding: 0px 0px 20px 20px;
+    font-family: "Cochin";
+    line-height: 25px;
 }
 
 /* END SECTION 4 */
@@ -182,7 +191,7 @@
     }
 
     .press-clippings-section-1-text {
-        padding: 0;
+        padding: 0px 50px 0px 0px;
     }
 
     .free-clip-image {
