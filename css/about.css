@@ -26,6 +26,7 @@
     letter-spacing: 0.61px;
     line-height: 20px;
     font-weight: lighter;
+    font-size: 18px;
 }
 
 /* END HERO */
@@ -73,6 +74,7 @@
 .why-sparkman-item-text {
     font-family: "Cochin";
     line-height: 25px;
+    font-size: 18px;
 }
 
 /* END WHY SPARKMAN */

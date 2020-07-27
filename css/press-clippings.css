@@ -49,7 +49,7 @@
 
 .press-clippings-section-1-text {
     padding-right: 50px;
-    font-size: 17px;
+    font-size: 18px;
     font-family: "Cochin";
     line-height: 25px;
 }
@@ -66,6 +66,7 @@
     padding-right: 50px;
     font-family: "Cochin";
     line-height: 25px;
+    font-size: 18px;
 }
 
 /* END SECTION 2 */
@@ -87,6 +88,10 @@
     padding: 0px 0px 20px 20px;
     font-family: "Cochin";
     line-height: 25px;
+}
+
+.press-clippings-section-4-text {
+    font-size: 18px;
 }
 
 /* END SECTION 4 */

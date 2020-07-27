@@ -36,10 +36,12 @@
 
 .church-programs-important-subtitle {
     font-family: "Bodoni 72 Oldstyle";
+    font-size: 22px;
 }
 
 .church-programs-important-list {
     font-family: "Cochin";
+    font-size: 18px;
 }
 
 .church-programs-important-wrapper {
@@ -51,6 +53,7 @@
     margin: 50px auto;
     font-family: "Cochin";
     line-height: 25px;
+    font-size: 18px;
 }
 
 /* END WHATS IMPORTANT SECTION */
@@ -88,6 +91,7 @@
     margin: 0 auto;
     font-family: "Cochin";
     line-height: 25px;
+    font-size: 18px;
 }
 
 .magic-bible-subtitle {
