@@ -158,6 +158,10 @@ scrollbar-width: none;  /* Firefox */
     font-size: 17px;
 }
 
+.services-dropdown-content a:hover {
+    text-decoration: underline;
+}
+
 .services-dropdown-content > hr {
     width: 70%;
     border: .001px solid rgba(125, 125, 125, 0.283);
