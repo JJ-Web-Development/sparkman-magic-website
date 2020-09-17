@@ -65,6 +65,10 @@
     font-size: 20px;
 }
 
+.blog-post-body > ol > li {
+    margin: 15px 0px;
+}
+
 /* END BLOG POSTS */
 
 /* START BREAKPOINTS */

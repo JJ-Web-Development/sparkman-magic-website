@@ -94,6 +94,10 @@
         margin-top: 20px;
     }
 
+    .about-hero-title {
+        margin-top: 100px !important;
+    }
+
     /* END HERO */
 
 }
@@ -104,7 +108,7 @@
     /* START HERO */
 
     .about-hero-title {
-        margin: 100px auto 30px auto;
+        margin: 150px auto 30px auto;
         width: 90%;
     }
 
